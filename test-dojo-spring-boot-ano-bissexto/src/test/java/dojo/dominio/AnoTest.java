@@ -24,4 +24,11 @@ public class AnoTest {
         boolean isBissexto = Ano.isBissexto(2400);
         assertTrue(isBissexto);
     }
+
+    @Test
+    public void testAnoNaoDivisivelPor400() {
+        boolean isBissexto = Ano.isBissexto(2500);
+        assertFalse(isBissexto);
+    }
+
 }
