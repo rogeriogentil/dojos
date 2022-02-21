@@ -24,9 +24,12 @@ public class Ano {
             return true;
         }
 
+        /*
         if (!isDivisivelPor4) {
           return false;
         }
+
+         */
 
         return false;
     }
