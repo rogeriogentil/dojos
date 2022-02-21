@@ -23,6 +23,7 @@ public class AnoTest {
     public void todoAnoDivisivelPor100MasNaoPor400(){
         boolean isBissexto =  Ano.isBissexto(1700);
         assertFalse(isBissexto);
+
     }
 
     @Test
@@ -31,10 +32,12 @@ public class AnoTest {
         assertTrue (isBissexto);
     }
 
+
     @Test
     public void todoAnoNaoDivisivel4NaoEBissexto() {
         boolean isBissexto = Ano.isBissexto(2017);
         assertFalse(isBissexto);
     }
 }
+
 
